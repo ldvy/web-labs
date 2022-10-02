@@ -1,0 +1,84 @@
+#content {
+    width: 30%;
+    height: 25%;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center
+}
+
+table {
+    width: 100%;
+    height: 100%;
+    table-layout: fixed;
+}
+
+tr:first-child {
+    background-color: #848f8f;
+    color: #000000;
+}
+
+tr:first-child:hover {
+    background-color: #7b7070;
+    color: #FFFFFF;
+}
+
+tr:nth-child(2) {
+    background-color: #f5f584;
+    color: #000000;
+}
+
+tr:nth-child(2):hover {
+    background-color: #0a0a7b;
+    color: #FFFFFF
+}
+
+#crosshair {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.circle {
+    border: 2px solid #000000;
+    border-radius: 50%;
+}
+
+.rectangle {
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+}
+
+#first-circle {
+    position: relative;
+    height: 70px;
+    width: 70px;
+    border: 15px solid rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0);
+}
+
+#second-circle {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    top: 33%;
+    left: 33%;
+    background: rgb(0, 0, 0);
+}
+
+#first-rect {
+    height: 120px;
+    width: 5px;
+    top: -35%;
+    left: 47%;
+}
+
+#second-rect {
+    height: 5px;
+    width: 120px;
+    top: 47%;
+    left: -35%;
+}
