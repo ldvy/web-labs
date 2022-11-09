@@ -1,0 +1,19 @@
+.inputField {
+  display: block;
+}
+.inputField:invalid {
+  border-color: red;
+}
+
+table.GeneratedTable {
+  width: 15%;
+  background-color: #ffffff;
+  border-collapse: collapse;
+  border-width: 1px;
+  border-style: solid;
+}
+
+table.GeneratedTable td {
+  border-width: 1px;
+  border-style: solid;
+}
