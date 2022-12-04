@@ -1,0 +1,25 @@
+body {
+  background-color: rgb(150, 139, 162);
+  text-align: center;
+}
+button {
+  color: white;
+  background-color: rgb(54, 54, 54);
+  font-size: 20px;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 2%;
+}
+p {
+  color: white;
+}
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+.personBox {
+  display: flex;
+  flex-flow: column;
+  align-content: stretch;
+}
